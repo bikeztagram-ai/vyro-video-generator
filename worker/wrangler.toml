@@ -3,7 +3,7 @@
 # `pnpm wrangler deploy` reads this file. The Worker holds no secrets in this
 # version (we hit a public HF Space, no API key), so the config is short.
 
-name = "nifty-vid"
+name = "vyro-motion-studio"
 main = "src/index.ts"
 compatibility_date = "2025-05-01"
 
@@ -17,7 +17,7 @@ compatibility_flags = ["nodejs_compat"]
 # - HF_SPACE_BASE points at the Gradio Space we proxy to. Easy to swap if we
 #   ever move to a paid backend.
 [vars]
-ALLOWED_ORIGINS = "http://localhost:4321,https://igorcsis.github.io"
+ALLOWED_ORIGINS = "http://localhost:4321,https://bikeztagram-ai.github.io"
 HF_SPACE_BASE = "https://cbensimon-wan2-2-fp8da-aoti-preview2.hf.space"
 HF_FN_NAME = "generate_video"
 

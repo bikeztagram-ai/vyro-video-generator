@@ -2,11 +2,11 @@
 
 ![NiftyVid: image to video with Wan 2.2](web/public/og.png)
 
-# NiftyVid
+# VYRO Motion Studio
 
-**Animate a still image with Wan 2.2 in your browser. Free. Open source.**
+**VYRO Motion Studio — a free-first image-to-video tool for producing cinematic VYRO trailer shots.**
 
-[Live demo](https://igorcsis.github.io/nifty-vid/) · [Portfolio](https://igorcsis.github.io/niftyai-portfolio/) · [Report an issue](https://github.com/IgorCSIS/nifty-vid/issues)
+[Source project](https://github.com/IgorCSIS/nifty-vid) · [Report an issue](https://github.com/bikeztagram-ai/vyro-video-generator/issues)
 
 ![Astro](https://img.shields.io/badge/Astro-4-FF5D01?logo=astro&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-3-38BDF8?logo=tailwindcss&logoColor=white)
@@ -15,6 +15,10 @@
 ![License](https://img.shields.io/badge/License-MIT-10B981)
 
 </div>
+
+## VYRO purpose
+
+This is a separate VYRO-owned working fork of NiftyVid, adapted as an experimental cinematic shot generator. It is not part of the VYRO game repository. The source project is MIT-licensed; its original copyright and license are retained in `LICENSE`. Changes in this fork must preserve that attribution.
 
 ## What it does
 
@@ -124,4 +128,4 @@ MIT. See [LICENSE](LICENSE).
 
 ---
 
-Part of the [**NiftyAi**](https://github.com/IgorCSIS/niftyai-portfolio) project family by [Igor Lima](https://github.com/IgorCSIS). Companion to [NiftyStats](https://github.com/IgorCSIS/niftystats).
+This fork is maintained for VYRO. Original upstream: [IgorCSIS/nifty-vid](https://github.com/IgorCSIS/nifty-vid), by Igor Lima. Keep the MIT license and upstream attribution intact.
